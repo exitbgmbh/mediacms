@@ -23,10 +23,8 @@ services:
     volumes:
       - ./:/home/mediacms.io/mediacms/
     depends_on:
-      redis:
-        condition: service_healthy
-      db:
-        condition: service_healthy
+      - redis
+      - db
   selenium_hub:
     container_name: selenium_hub
     image: selenium/hub

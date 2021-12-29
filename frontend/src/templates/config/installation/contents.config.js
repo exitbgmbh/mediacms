@@ -4,24 +4,9 @@ module.exports = {
   },
   sidebar: {
     navMenuItems: [
-      {
-        text: 'About',
-        link: './about.html',
-        icon: 'contact_support',
-      },
-      {
-        text: 'Terms',
-        link: './terms.html',
-        icon: 'description',
-      },
-      {
-        text: 'Contact',
-        link: './contact.html',
-        icon: 'alternate_email',
-      },
     ],
     belowNavMenu: null,
-    footer: 'Powered by <a href="//demo.mediacms.io" title="mediacms.io" target="_blank">mediacms.io</a>',
+    footer: '',
   },
   uploader: {
     belowUploadArea: '',

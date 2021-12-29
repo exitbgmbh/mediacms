@@ -123,7 +123,6 @@ export function PageSidebar() {
           <>
             <SidebarNavigationMenu />
             <SidebarBelowNavigationMenu />
-            <SidebarThemeSwitcher />
             <SidebarBelowThemeSwitcher />
             <SidebarBottom />
           </>

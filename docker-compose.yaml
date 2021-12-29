@@ -17,10 +17,8 @@ services:
     command: "./deploy/docker/prestart.sh"
     restart: on-failure
     depends_on:
-      redis:
-        condition: service_healthy
-      db:
-        condition: service_healthy
+      - redis
+      - db
   web:
     image: mediacms/mediacms:latest
     deploy:

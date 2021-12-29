@@ -2,9 +2,9 @@ let SIDEBAR = null;
 
 export function init(settings) {
   SIDEBAR = {
-    hideHomeLink: false,
-    hideTagsLink: false,
-    hideCategoriesLink: false,
+    hideHomeLink: true,
+    hideTagsLink: true,
+    hideCategoriesLink: true,
   };
 
   if (void 0 !== settings) {
