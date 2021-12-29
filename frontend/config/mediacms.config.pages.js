@@ -167,20 +167,7 @@ const STATIC_PAGES = {
     title: 'Error',
     renderer: templates.renderBase(),
     snippet: templates.static.errorPage(),
-  },
-  about: {
-    id: 'about',
-    title: 'About',
-    renderer: templates.renderBase(),
-    snippet: templates.static.aboutPage(),
-  },
-  terms: {
-    buildExclude: true,
-    id: 'terms',
-    title: 'Terms',
-    renderer: templates.renderBase(),
-    snippet: templates.static.termsPage(),
-  },
+  }
 };
 
 const DEV_ONLY_STATIC_PAGES = {
@@ -241,14 +228,7 @@ const DEV_ONLY_STATIC_PAGES = {
     title: 'Reset password',
     renderer: templates.renderBase(),
     snippet: templates.static.resetPasswordPage(),
-  },
-  contact: {
-    buildExclude: true,
-    id: 'contact',
-    title: 'Contact us',
-    renderer: templates.renderBase(),
-    snippet: templates.static.contactPage(),
-  },
+  }
 };
 
 const pages = {};
